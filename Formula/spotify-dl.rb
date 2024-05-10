@@ -10,6 +10,6 @@ class SpotifyDl < Formula
   depends_on "flac"
 
   def install
-    system "cargo", "install", "--bin", *std_cargo_args
+    system "cargo", "install", "--bin", "spotify-dl", *std_cargo_args
   end
 end
