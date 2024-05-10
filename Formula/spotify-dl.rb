@@ -6,6 +6,7 @@ class SpotifyDl < Formula
   license "MIT"
 
   depends_on "rust" => :build
+  depends_on "cmake" => :build
   depends_on "alsa-lib" if OS.linux?
   depends_on "flac"
 
