@@ -1,8 +1,7 @@
 class SpotifyDl < Formula
   desc "Utility to download songs and playlists directly from Spotify's servers"
   homepage "https://github.com/GuillemCastro/spotify-dl"
-  url "https://github.com/GuillemCastro/spotify-dl.git",
-    tag: "v0.7.0"
+  url "https://github.com/GuillemCastro/spotify-dl.git", tag: "v0.7.0"
   license "MIT"
 
   depends_on "cmake" => :build
