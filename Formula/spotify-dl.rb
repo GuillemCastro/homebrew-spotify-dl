@@ -9,8 +9,8 @@ class SpotifyDl < Formula
   end
 
   on_linux do
-    url "https://github.com/GuillemCastro/spotify-dl/releases/download/v0.8.0/spotify-dl.linux-x86_64"
-    sha256 "c07b22ad787a41338ccade71dfccf3587400558592bbe334ae7044fbc1a5e9dc"
+    url "https://github.com/GuillemCastro/spotify-dl/releases/download/v0.9.0/spotify-dl.linux-x86_64"
+    sha256 "4d941d762571c7c6e801c25ee137dd1f7dd4ba8461c66e198c9c97d11de8c1ea"
   end
 
   def install
