@@ -1,7 +1,6 @@
 class SpotifyDl < Formula
   desc "Utility to download songs and playlists directly from Spotify's servers"
   homepage "https://github.com/GuillemCastro/spotify-dl"
-  version "0.8.0"
   license "MIT"
 
   on_macos do
