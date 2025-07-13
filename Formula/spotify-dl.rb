@@ -3,8 +3,8 @@ class SpotifyDl < Formula
   homepage "https://github.com/GuillemCastro/spotify-dl"
   license "MIT"
 
-  url "https://github.com/GuillemCastro/spotify-dl/releases/download/v0.9.1/spotify-dl.macos-aarch64"
-  sha256 "58f1b7710050a58288b0bbb4e2e7337b0c75263da39e050dbe5b1c73cdd22116"
+  url "https://github.com/GuillemCastro/spotify-dl/releases/download/v0.9.2/spotify-dl.macos-aarch64"
+  sha256 "2e140f09bc2f5edfd82c03ada70dfc0ac53c9a0392d77adc0e6cd01cba91f246"
 
   def install
     bin.install "#{cached_download}" => "spotify-dl"
